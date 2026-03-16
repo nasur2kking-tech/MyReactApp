@@ -1,0 +1,62 @@
+.hero-section{
+height:100vh;
+background:#0595f4d3;
+display:flex;
+align-items:center;
+overflow:hidden;
+}
+
+.hero-row{
+height:100%;
+}
+
+.hero-left{
+padding-left:100px;
+}
+
+.hero-name{
+font-size:60px;
+margin-left: 4~0px;
+font-weight:700;
+}
+
+.hero-role{
+color:gray;
+margin-left: 130px;
+margin-bottom:30px;
+}
+
+.hero-icons a{
+font-size:20px;
+margin-right:15px;
+background:#e6e6e6;
+padding:12px;
+border-radius:5px;
+color:black;
+transition:0.3s;
+}
+
+.hero-icons a:hover{
+background:black;
+color:white;
+}
+
+.hero-right{
+background:black;
+display:flex;
+justify-content:center;
+align-items:center;
+clip-path: polygon(20% 0,100% 0,100% 100%,0 100%);
+}
+
+.hero-img{
+max-height:500px;
+object-fit:cover;
+}
+
+.hero-role{
+font-size:20px;
+color:#05090a;
+font-weight:600;
+margin-bottom:20px;
+}
